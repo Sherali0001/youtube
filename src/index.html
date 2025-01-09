@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You tube</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-800">
+    <!-- header -->
+    <header class=" flex justify-between p-4 bg-primary flex items-center fixed w-full top-0">
+        <div class="max-w-12">
+            <img class=" cursor-pointer" src="https://i.ibb.co/s9Qys2j/logo.png" alt="logo-img">
+        </div>
+
+        <div class="header-input bg-white rounded-full px-2">
+            <input class=" p-2 focus:outline-none rounded-full text-gray-600 font-[600] w-[300px]" id="input" type="text"
+                placeholder="Search...">
+            <label for="input"><i class=" text-red-400 fa-solid fa-magnifying-glass"></i></label>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- section -->
+    <section class=" grid grid-cols-[1fr_12fr] md:grid-cols-[1fr_4fr] lg:grid-cols-[1fr_5fr] mt-[80px]">
+        <div class="main-sidebar">
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-house"></i>
+                <h3>New</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-code"></i>
+                <h3>JS Mastery</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-code"></i>
+                <h3>Coding</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-code"></i>
+                <h3>ReactJS</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-code"></i>
+                <h3>NextJS</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-music"></i>
+                <h3>Music</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-graduation-cap"></i>
+                <h3>Education</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-microphone"></i>
+                <h3>Podcast</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-film"></i>
+                <h3>Movie</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-headset"></i>
+                <h3>Gaming</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-tv"></i>
+                <h3>Live</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-dumbbell"></i>
+                <h3>Sport</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-hat-cowboy-side"></i>
+                <h3>Fashion</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-star-of-david"></i>
+                <h3>Beauty</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-masks-theater"></i>
+                <h3>Comedy</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-solid fa-dumbbell"></i>
+                <h3>Gym</h3>
+            </a>
+            <a class="main-sideba-a " href="#">
+                <i class="main-sidebar-i fa-brands fa-codepen"></i>
+                <h3>Crypto</h3>
+            </a>
+        </div>
+
+        <div class=" h-[calc(100vh-80px)] overflow-hidden overflow-y-auto px-4">
+            <div class="title text-white p-4 text-[32px] font-[700]">
+                <span class="video-name">New</span> <span class=" text-secondary">videos</span>
+            </div>
+
+            <div class="videos grid grid-cols-2 xl:grid-cols-3 gap-4">
+
+                <!-- wrapper -->
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /wrapper -->
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-video">
+                    <img src="./videos/photo_2025-01-09_09-55-00.jpg" alt="video">
+                    <div class="content">
+                        <div class="user-img">
+                            <img src="./imgs/TheTesseract.webp" alt="user-img">
+                        </div>
+                        <div class="content-text">
+                            <h2 class="content-text-h2">JavaScript to'liq amaliy kurs</h2>
+                            <a class="content-text-a" href="#">Samar Badriddinov</a>
+                            <p class="content-text-p">WebDeweloper</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /section -->
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

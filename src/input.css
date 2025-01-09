@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-sidebar {
+    @apply flex flex-col bg-primary gap-6 border-r-[1px] border-gray-500 h-[calc(100vh-80px)] overflow-hidden overflow-y-auto;
+}
+
+.main-sidebar a {
+    @apply text-[14px] ml:text-[16px] flex items-center gap-4 py-2 px-4 rounded-full hover:bg-secondary hover:text-white transition ease-in duration-200 h-full;
+}
+
+.main-sideba-a:hover .main-sidebar-i {
+    color: white; /* Rangni oq qilib o'zgartirish */
+}
+
+.main-sidebar a h3 {
+    @apply hidden md:block text-white font-[600];
+}
+
+.main-sidebar a i {
+    @apply text-secondary text-[18px];
+}
+
+.wrapper-video {
+    @apply flex flex-col gap-3 bg-third-color;
+}
+.wrapper-video > img {
+    @apply  rounded-xl cursor-pointer;
+}
+
+.content {
+    @apply flex gap-3 items-center cursor-pointer p-2;
+}
+
+.user-img {
+    @apply w-10 h-10 rounded-full;
+}
+
+.user-img > img {
+    @apply w-full h-full object-cover rounded-full;
+}
+
+.content-text-h2 {
+    @apply text-[18px] md:text-[20px] lg:text-[22px] font-[600] text-white;
+}
+
+.content-text-a {
+    @apply md:text-[16px] lg:text-[18px] text-gray-400 font-[600] hover:text-gray-600 transition duration-200;
+}
+
+.content-text-p {
+    @apply text-gray-400;
+}
